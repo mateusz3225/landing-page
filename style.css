@@ -8,7 +8,7 @@ header{
     display: flex;
     justify-content: space-between;
     height: 60px;
-    padding:0 10%;
+    padding:0 20%;
     align-items: center;
     
 }
@@ -35,7 +35,7 @@ a{
     background-color:#1F2937;
     display: flex;
     justify-content: space-between;
-    padding:80px 10%;
+    padding:40px 20%;
     align-items: center;
     flex-wrap: wrap;
     gap:40px;
@@ -79,7 +79,8 @@ img{
 .pictures{
     
     
-    padding:0 10%;
+    padding:20px 20%;
+    margin-bottom: 40px;
     
     
 }
@@ -125,4 +126,55 @@ img{
     color:#1F2937;
     
 }
+.quote{
+    display: flex;
+    
+    
+    padding:150px  20%;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    
+}
+.quoteone{
+    font-size: 32px;
+    font-style:italic;
+    color:#1F2937;
+    justify-self: center;
+    font-weight: lighter;
+}
+.quotetwo{
+font-weight: bolder;
+align-self: flex-end;
+font-size: 24px;
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10%;
+    
+}
+.signupdiv {
+background-color: #3882F6;
+padding:20px 100px;
+display: flex;
+gap: 120px;
+border-radius: 8px;
+color: white;
+padding: 40px 80px;
 
+}
+.signup-right{
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 0 8px;
+    display: flex;
+    align-self: center;
+}
+.signuptext1 {
+    font-size: 24px;
+    font-weight: 500;
+    flex:0 0 auto;
+    
+}
